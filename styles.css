@@ -1,0 +1,93 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c0a98e; /* Moka background */
+    color: #2d1b14; /* Dark brown text */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #2d1b14; /* Dark brown */
+    color: #fff; /* White text */
+    padding: 20px;
+    font-size: 1.0rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #3f2a20; /* Deep brown */
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff; /* White text */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #a89276; /* Soft moka accent */
+    color: #2d1b14; /* Dark brown */
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    margin: 20px auto;
+    background-color: #fff; /* White sections for contrast */
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Images */
+img {
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Book Items */
+.book-item {
+    background: #cbb292; /* Soft moka beige */
+    padding: 15px;
+    margin: 15px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Audio Player */
+audio {
+    margin-top: 10px;
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Footer */
+footer {
+    background-color: #2d1b14; /* Dark brown */
+    color: white;
+    padding: 15px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
